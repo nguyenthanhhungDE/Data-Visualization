@@ -50,13 +50,18 @@ Sử dụng trực quan hóa dữ liệu trong marketing có nhiều lợi ích,
 ##### Nhóm 2: chi tiêu cao và thu nhập trung bình
 ##### Nhóm 1: chi tiêu cao và thu nhập cao
 - Gán nhãn cụm dữ liệu
-![image](https://github.com/nguyenthanhhungDE/Data-Visualization/assets/134383281/6c29ecf7-5040-4fee-89ed-4b0131b1c8f4)
 ##### chúng ta sẽ phân loại Nhóm 0 là Khách hàng Bình thường, Nhóm 1 là Khách hàng Đặc biệt, Nhóm 2 là Khách hàng Tốt, và Nhóm 3 là Khách hàng có tiềm năng.
+![image](https://github.com/nguyenthanhhungDE/Data-Visualization/assets/134383281/6c29ecf7-5040-4fee-89ed-4b0131b1c8f4)
 - Chi tiêu của từng cụm khách hàng
 ![image](https://github.com/nguyenthanhhungDE/Data-Visualization/assets/134383281/af4c79f8-3d04-4a72-9910-aa1cc7f0de70)
 - Mức chi tiêu cho từng mặt hàng của từng cụm khách hàng
 ![image](https://github.com/nguyenthanhhungDE/Data-Visualization/assets/134383281/6ceda3b9-deac-4ca2-9d19-0d95b61ec374)
 - Tỷ lệ chấp nhận chiến dịch quảng cáo của từng nhóm khác hàng
 ![image](https://github.com/nguyenthanhhungDE/Data-Visualization/assets/134383281/31bc4d00-1d64-440e-9d58-cabf86c1c00f)
-- Kết quả mua hàng qua ưu đãi
-![image](https://github.com/nguyenthanhhungDE/Data-Visualization/assets/134383281/501ed6c6-b1b8-4ac9-9919-cb8fb8b12917)
+- Kết quả mua hàng qua khuyến mại
+![image](https://github.com/nguyenthanhhungDE/Data-Visualization/assets/134383281/3a01e59f-890b-48e8-8f64-88f0e707869b)
+# 4 Dashboard trên PowerBI
+![image](https://github.com/nguyenthanhhungDE/Data-Visualization/assets/134383281/5c70905b-6428-4488-9f3e-bf45f5be52ff)
+
+
+

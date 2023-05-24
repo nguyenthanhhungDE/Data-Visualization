@@ -13,55 +13,63 @@ Sử dụng trực quan hóa dữ liệu trong marketing có nhiều lợi ích,
 # 3. Nội dung chính dự án
 ## 3.1 Làm sạch dữ liệu:
 - Trực quan tập dữ liệu và loại bỏ Outlier
-![image](https://github.com/nguyenthanhhungDE/Data-Visualization/assets/134383281/d5cab3f7-612f-4440-8c8c-b433d3c8e6c0)
+![image](https://github.com/nguyenthanhhungDE/Data-Visualization/assets/134383281/95a75a95-88db-4203-822d-2eff18d63d59)
 
 - Kiểm tra tìm Missing data và fill bằng phương pháp mean
-![image](https://github.com/nguyenthanhhungDE/Data-Visualization/assets/134383281/26558368-9b85-41d3-8616-197e1d1725b3)
+![image](https://github.com/nguyenthanhhungDE/Data-Visualization/assets/134383281/ec0071fa-71ac-4f5f-a5dc-630bf23b874c)
 
 - Tạo các cột cần thiết và chuyển đôi kiểu dữ liệu
-![image](https://github.com/nguyenthanhhungDE/Data-Visualization/assets/134383281/89678a70-4f02-4cb6-b939-749519b9e47c)
+![image](https://github.com/nguyenthanhhungDE/Data-Visualization/assets/134383281/90f7702a-07f0-4791-b546-86628926660b)
 
 - Vẽ biểu đồ tương quan
-![image](https://github.com/nguyenthanhhungDE/Data-Visualization/assets/134383281/006fdf43-c960-4080-b6d9-3afda0b24c14)
+![image](https://github.com/nguyenthanhhungDE/Data-Visualization/assets/134383281/2afa4274-7619-41af-9d88-b55c1a4cf5ca)
 
 ## 3.2 Tiền xử lí dữ liệu:
 - Mã hóa các cột biến phân loại
 - Chuẩn hóa dữ liệu bằng phương pháp Scale data using Standard Scaler
-![image](https://github.com/nguyenthanhhungDE/Data-Visualization/assets/134383281/91d0b4ac-f9d8-4f98-9106-96d66e5071c0)
+![image](https://github.com/nguyenthanhhungDE/Data-Visualization/assets/134383281/5b4b0f1d-848e-481e-affa-a857d33b55a4)
 
 - Giảm chiều dữ liệu xuống còn 3 thuộc tính và trực quan các quan sát
-![image](https://github.com/nguyenthanhhungDE/Data-Visualization/assets/134383281/7848b236-ad6f-4b2e-8979-f8f0ab17c057)
+![image](https://github.com/nguyenthanhhungDE/Data-Visualization/assets/134383281/f92b037f-0a24-433d-a9fc-692709f96559)
 
 3.2 Xây dựng thuật toán K-means phân cụm khách hàng:
 - Tìm số cụm K phù hợp bằng Elbow
-![image](https://github.com/nguyenthanhhungDE/Data-Visualization/assets/134383281/7079541a-69a7-4b47-8773-e8f361a3b54e)
+![image](https://github.com/nguyenthanhhungDE/Data-Visualization/assets/134383281/428bdef6-bee0-482a-ac0d-8bb1ceb40df2)
+
 - Tìm thuật toán phân cụm phù hợp
-![image](https://github.com/nguyenthanhhungDE/Data-Visualization/assets/134383281/1770d568-f25c-4a9f-a73f-85de08791ff0)
+![image](https://github.com/nguyenthanhhungDE/Data-Visualization/assets/134383281/817968da-8ea9-4c9e-82db-5b9b20b31c50)
 
 - Trực quan hóa kết quả phân cụm
-![image](https://github.com/nguyenthanhhungDE/Data-Visualization/assets/134383281/258460fd-168e-4fe6-af9a-41e969bad26e)
+![image](https://github.com/nguyenthanhhungDE/Data-Visualization/assets/134383281/98f2b9fd-375c-4989-9ea4-11128727b44d)
+
 ## 3.4 Đánh giá kết quả
 - Sự phân bố các cụm
-![image](https://github.com/nguyenthanhhungDE/Data-Visualization/assets/134383281/3d9293a2-f34a-44ff-b76f-8020a3c8ae6b)
+![image](https://github.com/nguyenthanhhungDE/Data-Visualization/assets/134383281/f661bbd2-0ac4-4909-8d8b-49552ecca130)
+
 - Phân cụm dựa trên tổng chi tiêu và thu nhập
-![image](https://github.com/nguyenthanhhungDE/Data-Visualization/assets/134383281/4237ef6b-04ee-465e-83d0-064ce0d20ac8)
+![image](https://github.com/nguyenthanhhungDE/Data-Visualization/assets/134383281/281039e4-2baa-49b9-897c-c43ffb5813e7)
+
 ##### Nhóm 0: chi tiêu thấp và thu nhập thấp
 ##### Nhóm 3: chi tiêu thấp và thu nhập trung bình
 ##### Nhóm 2: chi tiêu cao và thu nhập trung bình
 ##### Nhóm 1: chi tiêu cao và thu nhập cao
 - Gán nhãn cụm dữ liệu
 ##### chúng ta sẽ phân loại Nhóm 0 là Khách hàng Bình thường, Nhóm 1 là Khách hàng Đặc biệt, Nhóm 2 là Khách hàng Tốt, và Nhóm 3 là Khách hàng có tiềm năng.
-![image](https://github.com/nguyenthanhhungDE/Data-Visualization/assets/134383281/6c29ecf7-5040-4fee-89ed-4b0131b1c8f4)
-- Chi tiêu của từng cụm khách hàng
-![image](https://github.com/nguyenthanhhungDE/Data-Visualization/assets/134383281/af4c79f8-3d04-4a72-9910-aa1cc7f0de70)
-- Mức chi tiêu cho từng mặt hàng của từng cụm khách hàng
-![image](https://github.com/nguyenthanhhungDE/Data-Visualization/assets/134383281/6ceda3b9-deac-4ca2-9d19-0d95b61ec374)
-- Tỷ lệ chấp nhận chiến dịch quảng cáo của từng nhóm khác hàng
-![image](https://github.com/nguyenthanhhungDE/Data-Visualization/assets/134383281/31bc4d00-1d64-440e-9d58-cabf86c1c00f)
-- Kết quả mua hàng qua khuyến mại
-![image](https://github.com/nguyenthanhhungDE/Data-Visualization/assets/134383281/3a01e59f-890b-48e8-8f64-88f0e707869b)
-# 4 Dashboard trên PowerBI
-![image](https://github.com/nguyenthanhhungDE/Data-Visualization/assets/134383281/5c70905b-6428-4488-9f3e-bf45f5be52ff)
+![image](https://github.com/nguyenthanhhungDE/Data-Visualization/assets/134383281/59fb6647-3f37-41ab-9b35-48b3d269169c)
 
+- Chi tiêu của từng cụm khách hàng
+![image](https://github.com/nguyenthanhhungDE/Data-Visualization/assets/134383281/a54c1d2b-93c8-448a-b64c-bcf528ae78b7)
+
+- Mức chi tiêu cho từng mặt hàng của từng cụm khách hàng
+![image](https://github.com/nguyenthanhhungDE/Data-Visualization/assets/134383281/a233adb7-f5c8-4bc8-be5a-78c6e79e4df5)
+
+- Tỷ lệ chấp nhận chiến dịch quảng cáo của từng nhóm khác hàng
+![image](https://github.com/nguyenthanhhungDE/Data-Visualization/assets/134383281/f15a93cf-bb54-4acb-85ff-3268652f60c1)
+
+- Kết quả mua hàng qua khuyến mại
+![image](https://github.com/nguyenthanhhungDE/Data-Visualization/assets/134383281/819d9250-a1a0-47ce-b88f-8e20c01057a3)
+
+# 4 Dashboard trên PowerBI
+![image](https://github.com/nguyenthanhhungDE/Data-Visualization/assets/134383281/f2165015-4e60-4010-bc4f-2d359dfd631b)
 
 
